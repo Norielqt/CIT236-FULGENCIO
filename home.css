@@ -1,0 +1,783 @@
+*
+{
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.background
+{
+    height: 100vh;
+    width: 90%;
+    position: relative;
+    padding: 0 5%;
+    color: white;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 80px;
+    background: white;
+    transition: 0.5s;
+    z-index: 1000;
+    height: 13%;
+}
+
+.p1
+{
+    text-align: left;
+    color: rgb(255, 4, 109);
+    font-size: 40px;
+    padding: 2%;
+    margin-left: -2%;
+}
+
+.p2
+{
+    position: relative;
+    color: black;
+    text-align: left;
+    top: -35px;
+    left: 40px;
+}
+
+
+li
+{
+    display: inline-block;
+    position: relative;
+    left: 130px;
+}
+
+a
+{
+    position: relative;
+    top: -80px;
+    left: 1000px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+}
+
+a:hover
+{
+    background: rgb(255, 4, 109);
+    color: black;
+    box-shadow: 0 0 10px rgb(255, 4, 109);
+    border-radius: 5px;
+}
+
+.a1
+{
+    color: rgb(255, 4, 109);
+}
+
+.a1:hover
+{
+    background: rgb(255, 4, 109);
+    color: black;
+    box-shadow: 0 0 10px rgb(255, 4, 109);
+    border-radius: 5px;
+}
+
+span
+{
+    color: rgb(255, 4, 109);
+}
+
+/* h1
+{
+    position: relative;
+    top: 300px;
+}
+
+h2
+{
+    position: relative;
+    color: white;
+    font-size: 50px;
+    top: 500px;
+    right: 0px;
+} */
+
+.img1
+{
+    z-index: -1;
+    filter: brightness(110%);
+    position: absolute;
+    height: 100vh;
+    width: 100%; 
+    
+}
+
+.box {
+    position: relative;
+    top: 290px;
+    left: 252px;
+    width: 242px;
+    height: 380px;
+    color: black;
+    background: white;
+    font-size: 50px;
+    line-height: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+
+.img2
+{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100%; 
+}
+
+.background2
+{
+    height: 100vh;
+    width: 90%;
+    position: relative;
+    padding: 0 5%;
+    color: black;
+}
+
+.img3
+{
+    height: 500px;
+    width: 500px;
+    z-index: 1;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+.p5
+{
+    position: relative;
+    top: 140px;
+    right: 370px;
+    float:right;
+    font-size: 50px;
+}
+
+.p6
+{
+    position: relative;
+    float: right;
+    right: 80px;
+    bottom: 230px;
+    font-size: 30px;
+}
+
+
+/* CONTACT US  */
+
+.background3
+{
+    height: 100vh;
+    width: 90%;
+    position: relative;
+    padding: 0 5%;
+    color: white;
+}
+
+.img4
+{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(95%);
+}
+
+
+.background3 .form
+{
+    margin: 30px;
+}
+
+.background3 .form p
+{
+    position: relative;
+    text-align: right;
+    right: 990px;
+}
+
+.img5
+{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    left: 70px;
+    top: 295px;
+}
+
+.p7
+{
+    position: absolute;
+    top: 140px;
+    float: right;
+    left: 1180px;
+    font-size: 50px;
+    color: white;
+    
+}
+
+.p8
+{
+    position: relative;
+    left: -715px;
+    font-size: 20px;
+}
+
+.p9
+{
+    position: relative;
+    left: -760px;
+    font-size: 20px;
+}
+
+.p10
+{
+    position: relative;
+    left: -775px;
+    font-size: 20px;
+}
+
+::placeholder
+{
+color:rgb(81, 81, 81);
+}
+
+.inputBx
+{
+    position: relative;
+    left: 780px;
+    top: 60px;
+    width: 50%;
+}
+
+.inputBx1
+{
+
+    position: absolute;
+    left: 1230px;
+    top: 700px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: rgb(255, 4, 109);
+    min-height: 15px;
+    font-size: 1.1em;
+}
+
+
+.background3 .form .inputBx
+{
+    margin: 10px 0;
+}
+
+.background3 .form .inputBx input,
+.background3 .form .inputBx textarea
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    background: #ffffff;
+    min-height: 15px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.background3 .form .inputBx textarea
+{
+    height: 150px;
+}
+
+.background3 .form .inputBx1 input[type="submit"]
+{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgb(255, 4, 109);
+    text-decoration: none;
+    font-weight: 700;
+    width: 150px;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+
+
+.background3 .form .inputBx1 input[type="submit"]:hover
+{
+    background: rgb(255, 4, 109);
+    border: none;
+    color: black;
+    box-shadow: 0 0 10px rgb(255, 4, 109);
+}
+
+
+
+/* Anime */
+
+.img6
+{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100%; 
+    filter: brightness(100%);
+}
+
+.background4
+{
+    padding: 0px 5%;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    color: black;
+}
+
+
+.p11
+{
+    /* position: relative;
+    top: 140px;
+    right: 370px;
+    float:right; */
+    position: relative;
+    left: 150px;
+    font-size: 50px;
+    color: rgb(255, 4, 109);
+    margin: 10px 0;
+}
+
+.p12
+{
+    position: relative;
+    text-align: center;
+    left: 360px;
+    font-size: 30px;
+    color: black;
+}
+
+.list
+{
+    position: relative;
+    left:340px;
+}
+
+.cardBx2
+{
+    position: relative;
+    left: 350px;
+}
+
+.cardBx4
+{
+    position: relative;
+    left:20px;
+}
+
+.background4 ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.background4 li
+{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: rgb(255, 4, 109);
+}
+
+.background4 li
+{
+    background: rgb(255, 4, 109);
+    color: white;
+    box-shadow: 0 0 10px rgb(255, 4, 109);
+}
+
+.img7
+{
+    height: 50%;
+    width: 100%;
+}
+
+.cardBx{
+    position:relative;
+    left:100px;
+}
+
+.background4 .cardBx
+{
+    width: 100%;
+    min-height: 100%;
+}
+
+.background4 .cardBx .card
+{
+    width: 280px;
+    border-radius: 10px;
+    margin: 20px 40px;
+    background: rgb(112, 112, 112);
+    overflow: hidden;
+}
+
+.background4 .cardBx .card .content
+{
+    padding: 10px;
+}
+
+.background4 .cardBx .card .content h4
+{
+    color: #fff;
+    margin: 15px 0;
+}
+
+.background4 .cardBx .card .progress-line
+{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #35407e;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.background4 .cardBx .card .progress-line span
+{
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    background: #1aeeef;
+    box-shadow: 0 0 10px #1aeeef;
+    transform: scaleX(0);
+    transform-origin: left ;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate
+{
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.background4 .cardBx .card .info
+{
+    border-top: 2px solid #35407e;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background4 .cardBx .card .info p
+{
+    font-size: 1em;
+    color: #fff;
+}
+
+.background4 .cardBx .card .info p span
+{
+    color: #1aeeef;
+}
+
+.a2
+{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: left;
+    position: relative;
+    left: -10px;
+    top: 0px;
+    font-size: 10px;
+}
+
+.a2:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+
+/* 2nd anime */
+
+.img8
+{
+    height: 50%;
+    width: 100%;
+}
+
+.background4 .cardBx2
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -920px;
+}
+
+.background4 .cardBx2 .card
+{
+    width: 280px;
+    border-radius: 10px;
+    margin: 20px 40px;
+    background: rgb(112, 112, 112);
+    overflow: hidden;
+}
+
+.background4 .cardBx2 .card .content
+{
+    padding: 10px;
+}
+
+.background4 .cardBx2 .card .content h4
+{
+    color: #fff;
+    margin: 15px 0;
+}
+
+.background4 .cardBx2 .card .progress-line
+{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #35407e;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.background4 .cardBx2 .card .progress-line span
+{
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    background: #1aeeef;
+    box-shadow: 0 0 10px #1aeeef;
+    transform: scaleX(0);
+    transform-origin: left ;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate
+{
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.background4 .cardBx2 .card .info
+{
+    border-top: 2px solid #35407e;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background4 .cardBx2 .card .info p
+{
+    font-size: 1em;
+    color: #fff;
+}
+
+.background4 .cardBx2 .card .info p span
+{
+    color: #1aeeef;
+}
+
+.a2
+{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: left;
+    position: relative;
+    left: -10px;
+    top: 0px;
+    font-size: 10px;
+}
+
+.a2:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+/* 3rd Anime */
+
+.img9
+{
+    height: 55%;
+    width: 100%;
+}
+
+.background4 .cardBx4
+{
+    width: 100%;
+    height: 105%;
+    position: relative;
+    top: -1600px;
+    left: 900px;
+    
+}
+
+.background4 .cardBx4 .card
+{
+    width: 280px;
+    border-radius: 10px;
+    margin: 20px 40px;
+    background: rgb(112, 112, 112);
+    overflow: hidden;
+}
+
+.background4 .cardBx4 .card .content
+{
+    padding: 10px;
+}
+
+.background4 .cardBx4 .card .content h4
+{
+    color: #fff;
+    margin: 15px 0;
+}
+
+.background4 .cardBx4 .card .progress-line
+{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #35407e;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.background4 .cardBx4 .card .progress-line span
+{
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 75%;
+    border-radius: 10px;
+    background: #1aeeef;
+    box-shadow: 0 0 10px #1aeeef;
+    transform: scaleX(0);
+    transform-origin: left ;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate
+{
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.background4 .cardBx4 .card .info
+{
+    border-top: 2px solid #35407e;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background4 .cardBx4 .card .info p
+{
+    font-size: 1em;
+    color: #fff;
+}
+
+.background4 .cardBx4 .card .info p span
+{
+    color: #1aeeef;
+}
+
+.a2
+{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #1aeeef;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: left;
+    position: relative;
+    left: -10px;
+    top: 0px;
+    font-size: 10px;
+}
+
+.a2:hover{
+    background: #1aeeef;
+    border: none;
+    color: #050e2d;
+    box-shadow: 0 0 10px #1aeeef;
+}
+
+.img20
+{
+    z-index: -1;
+    position: absolute;
+    height: 60%;
+    width: 100%; 
+    filter: brightness(100%);
+}
+
+.background3{
+    position: relative;
+    top:300px;
+}
